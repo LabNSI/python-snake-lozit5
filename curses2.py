@@ -89,7 +89,7 @@ def jeu(win):
 	win.addch(food[0], food[1], chr(211), curses.color_pair(2))  # Prints the food
 
 	# Affichage du serpent en bleu sur fond jaune
-	curses.init_pair(3, curses.COLOR_BLUE, curses.COLOR_YELLOW )
+	curses.init_pair(3, curses.COLOR_BLUE, curses.COLOR_YELLOW)
 	# sur toute la longeur du serpent
 	for i in range(len(snake)):
 		# affichage de chaque anneau dans la fenêtre en ligne, colonne
